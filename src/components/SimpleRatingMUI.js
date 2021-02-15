@@ -3,7 +3,9 @@ import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
 
 export default function SimpleRating(props) {
-    const [value, setValue] = React.useState(
+    const [value,
+        // setValue
+    ] = React.useState(
         Math.floor(Math.random() * 5) + 1
     );
 
